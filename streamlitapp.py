@@ -6,4 +6,4 @@ Streamlit.header('Breakfast Menu')
 
 Streamlit.text('Omlette')
 Streamlit.text('Tea')
-Streamlit.text'Boiled eggs')
+Streamlit.text('Boiled eggs')
