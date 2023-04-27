@@ -7,4 +7,4 @@ streamlit.header('Breakfast Menu')
 streamlit.text('Boiled Eggs')
 streamlit.text('Omlette')
 
-streamlit.header('Build your own fruit smoothie'
+streamlit.header('Build your own fruit smoothie')
