@@ -9,8 +9,8 @@ my_cur.execute("SELECT CURRENT_ROLE()")
 my_cur.execute("SELECT * from PC_RIVERY_DB.PUBLIC.FRUIT_LOAD_LIST")
 
 my_data_row = my_cur.fetchone()
-streamlit.text("The fruit load list contains:")
-streamlit.text(my_data_row)
+streamlit.header("The fruit load list contains:")
+streamlit.dataframe(my_data_row)
 
 streamlit.title('My parents new healthy Dinner')
 
