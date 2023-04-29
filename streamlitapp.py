@@ -14,6 +14,10 @@ streamlit.dataframe(my_data_rows)
 
 add_my_fruit = streamlit.text_input('What fruit would you like to add?','Kiwi')
 streamlit.write('The user entered ', add_my_fruit)
+my_cur.execute("insert into PC_RIVERY_DB.PUBLIC.FRUIT_LOAD_LIST values ('from streamlit')")
+
+streamlit.write('Thanks for adding ', add_my_fruit)
+
 streamlit.title('My parents new healthy Dinner')
 
 streamlit.header('Breakfast Menu')
